@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Lotus-DIR
+Comment=A Linux Finder file manager for Linux
+Exec=lotus-dir
+Icon=lotus-dir
+Terminal=false
+Type=Application
+Categories=System;FileManager;Utility;
+StartupNotify=true
+MimeType=inode/directory;

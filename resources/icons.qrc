@@ -1,0 +1,64 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/icons">
+        <!-- Navigation -->
+        <file alias="back.png">icons/back.svg</file>
+        <file alias="forward.png">icons/forward.svg</file>
+        <file alias="up.png">icons/up.svg</file>
+        <file alias="home.png">icons/home.svg</file>
+        
+        <!-- View modes -->
+        <file alias="icon-view.png">icons/icon-view.svg</file>
+        <file alias="list-view.png">icons/list-view.svg</file>
+        
+        <!-- File operations -->
+        <file alias="copy.png">icons/copy.svg</file>
+        <file alias="cut.png">icons/cut.svg</file>
+        <file alias="paste.png">icons/paste.svg</file>
+        <file alias="delete.png">icons/delete.svg</file>
+        <file alias="rename.png">icons/rename.svg</file>
+        <file alias="open.png">icons/open.svg</file>
+        <file alias="refresh.png">icons/refresh.svg</file>
+        
+        <!-- Toggle buttons -->
+        <file alias="sidebar.png">icons/sidebar.svg</file>
+        <file alias="preview.png">icons/preview.svg</file>
+        <file alias="dark.png">icons/dark.svg</file>
+        <file alias="light.png">icons/light.svg</file>
+        
+        <!-- Sidebar items -->
+        <file alias="airdrop.png">icons/airdrop.svg</file>
+        <file alias="recents.png">icons/recents.svg</file>
+        <file alias="applications.png">icons/applications.svg</file>
+        <file alias="desktop.png">icons/desktop.svg</file>
+        <file alias="documents.png">icons/documents.svg</file>
+        <file alias="downloads.png">icons/downloads.svg</file>
+        <file alias="movies.png">icons/movies.svg</file>
+        <file alias="music.png">icons/music.svg</file>
+        <file alias="pictures.png">icons/pictures.svg</file>
+        <file alias="computer.png">icons/computer.svg</file>
+        <file alias="info.png">icons/info.svg</file>
+        
+        <!-- File types -->
+        <file alias="folder.png">icons/folder.svg</file>
+        <file alias="file.png">icons/file.svg</file>
+        <file alias="image.png">icons/image.svg</file>
+        <file alias="pdf.png">icons/pdf.svg</file>
+        <file alias="doc.png">icons/doc.svg</file>
+        <file alias="text.png">icons/text.svg</file>
+        <file alias="spreadsheet.png">icons/spreadsheet.svg</file>
+        <file alias="video.png">icons/video.svg</file>
+        <file alias="audio.png">icons/audio.svg</file>
+        <file alias="archive.png">icons/archive.svg</file>
+        <file alias="code.png">icons/code.svg</file>
+        <file alias="executable.png">icons/executable.svg</file>
+        
+        <!-- App icon -->
+        <file alias="app.png">icons/app.svg</file>
+    </qresource>
+    
+    <qresource prefix="/qss">
+        <file alias="light.qss">qss/light.qss</file>
+        <file alias="dark.qss">qss/dark.qss</file>
+    </qresource>
+</RCC>

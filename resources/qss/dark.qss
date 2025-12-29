@@ -1,0 +1,343 @@
+/* Lotus-DIR Dark Theme - Linux Finder Dark Mode Style */
+
+/* Main Window */
+QMainWindow {
+    background-color: #1E1E1E;
+    border: none;
+    color: #FFFFFF;
+}
+
+#mainSplitter {
+    background-color: #1E1E1E;
+}
+
+/* Toolbar */
+#mainToolbar {
+    background-color: #2D2D2D;
+    border-bottom: 1px solid #3D3D3D;
+    padding: 4px 8px;
+    spacing: 4px;
+}
+
+#mainToolbar QToolButton {
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 8px;
+    min-width: 32px;
+    min-height: 32px;
+    color: #FFFFFF;
+}
+
+#mainToolbar QToolButton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#mainToolbar QToolButton:pressed {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#mainToolbar QToolButton:checked {
+    background-color: rgba(10, 132, 255, 0.4);
+}
+
+/* Search Bar */
+#searchBar {
+    background-color: #1A1A1A;
+    border: 1px solid #3D3D3D;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 13px;
+    color: #FFFFFF;
+    min-width: 180px;
+}
+
+#searchBar:focus {
+    border-color: #0A84FF;
+    outline: none;
+}
+
+#searchBar::placeholder {
+    color: #6E6E73;
+}
+
+/* Path Label */
+#pathLabel {
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-left: 12px;
+    border-bottom: 1px solid #3D3D3D;
+}
+
+/* Sidebar */
+#sidebarTree {
+    background-color: #252525;
+    border: none;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+#sidebarTree::item {
+    padding: 4px 8px;
+    border-radius: 4px;
+    min-height: 24px;
+}
+
+#sidebarTree::item:selected {
+    background-color: #0A84FF;
+    color: #FFFFFF;
+}
+
+#sidebarTree::item:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+#sidebarTree QTreeWidgetItem {
+    border: none;
+}
+
+/* Icon View */
+#iconView {
+    background-color: #1E1E1E;
+    border: none;
+}
+
+#iconView::item {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+}
+
+#iconView::item:selected {
+    background-color: #0A84FF;
+    border: 1px solid #0A84FF;
+}
+
+#iconView::item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* List View */
+#listView {
+    background-color: #1E1E1E;
+    border: none;
+    gridline-color: #3D3D3D;
+    color: #FFFFFF;
+}
+
+#listView::item {
+    padding: 4px 8px;
+    border-bottom: 1px solid #2D2D2D;
+    min-height: 24px;
+    color: #FFFFFF;
+}
+
+#listView::item:selected {
+    background-color: #0A84FF;
+    color: #FFFFFF;
+}
+
+#listView::item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+#listView QHeaderView::section {
+    background-color: #2D2D2D;
+    border: none;
+    border-bottom: 1px solid #3D3D3D;
+    border-right: 1px solid #3D3D3D;
+    padding: 8px 12px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+#listView QHeaderView::section:first {
+    border-left: none;
+}
+
+/* Status Bar */
+QStatusBar {
+    background-color: #2D2D2D;
+    border-top: 1px solid #3D3D3D;
+    font-size: 11px;
+    color: #A1A1A6;
+    padding: 0 8px;
+}
+
+/* Menu */
+QMenu {
+    background-color: #2D2D2D;
+    border: 1px solid #3D3D3D;
+    border-radius: 8px;
+    padding: 4px 0;
+    font-size: 13px;
+    color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+QMenu::item {
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin: 0 4px;
+    color: #FFFFFF;
+}
+
+QMenu::item:selected {
+    background-color: #0A84FF;
+    color: #FFFFFF;
+}
+
+QMenu::item:disabled {
+    color: #6E6E73;
+}
+
+QMenu::separator {
+    height: 1px;
+    background-color: #3D3D3D;
+    margin: 4px 8px;
+}
+
+/* Scrollbar */
+QScrollBar:vertical {
+    background-color: transparent;
+    width: 10px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #5A5A5E;
+    border-radius: 4px;
+    min-height: 30px;
+    margin: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #6E6E73;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0;
+    background: none;
+    border: none;
+}
+
+QScrollBar:horizontal {
+    background-color: transparent;
+    height: 10px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #5A5A5E;
+    border-radius: 4px;
+    min-width: 30px;
+    margin: 4px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background-color: #6E6E73;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0;
+    background: none;
+    border: none;
+}
+
+/* QSplitter Handle */
+QSplitter::handle {
+    background-color: #3D3D3D;
+    width: 1px;
+    height: 1px;
+}
+
+QSplitter::handle:horizontal {
+    width: 1px;
+}
+
+QSplitter::handle:vertical {
+    height: 1px;
+}
+
+/* Message Box */
+QMessageBox {
+    background-color: #2D2D2D;
+    border-radius: 12px;
+    color: #FFFFFF;
+}
+
+QMessageBox QLabel {
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+QMessageBox QPushButton {
+    min-width: 80px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: #0A84FF;
+    color: #FFFFFF;
+    font-weight: 500;
+    border: none;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #409CFF;
+}
+
+/* Input Dialog */
+QInputDialog {
+    background-color: #2D2D2D;
+    border-radius: 12px;
+    color: #FFFFFF;
+}
+
+QInputDialog QLineEdit {
+    background-color: #1A1A1A;
+    border: 1px solid #3D3D3D;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+/* Tooltip */
+QToolTip {
+    background-color: #3D3D3D;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    border: 1px solid #5A5A5E;
+}
+
+/* Selection highlight in views */
+QAbstractItemView:focus {
+    outline: none;
+}
+
+/* ComboBox styling */
+QComboBox {
+    background-color: #1A1A1A;
+    border: 1px solid #3D3D3D;
+    border-radius: 6px;
+    padding: 6px 12px;
+    color: #FFFFFF;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 20px;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    border: none;
+}
+
+QComboBox:on {
+    border-color: #0A84FF;
+}
